@@ -31,6 +31,84 @@ body {
    font-family: 'Sanchez', 'Times New Roman', serif;
 }
 
+#feature {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   color: #3b3b3b;
+   list-style: none;
+   padding-left: 0;
+}
+
+#feature i {
+   font-size: 16px;
+   color: #3b3b3b;
+   width: 20px;
+   margin-right: 12px;
+}
+
+#room-types {
+   font-size: 32px;
+   color: black;
+   background-color: #f4f4f4;
+   background-size: cover;
+   padding-top: 16px;
+   padding-bottom: 24px;
+}
+
+#room-types > h3 {
+   padding-bottom: 24px;
+}
+
+#room-card {
+   padding: 16px;
+   box-shadow: 0px 10px 20px #00000029;
+   background-color: white;
+   margin-bottom: 24px;
+}
+
+/* #room-card > img {
+   width: 100%;
+   height: auto;
+   margin-bottom: 17px;
+} */
+
+#room-card > div {
+   width: 100%;
+   height: auto;
+   padding-top: 56.25%;
+   background-image: url('../images/chateaus.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   margin-bottom: 17px;
+}
+
+#room-card > h4 {
+   font-size: 16px;
+   color: #9A2018;
+}
+
+#room-types-pagination {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#room-types-pagination > div {
+   width: 8px;
+   height: 8px;
+   border-radius: 100%;
+   background-color: #9a211875;
+   margin-left: 4px;
+   margin-right: 4px;
+}
+
+#room-types-pagination > div.--active {
+   width: 12px;
+   height: 12px;
+   background-color: #9A2018;
+}
+
 a {
    text-decoration: none;
    transition: all .5s ease-in-out;
@@ -108,8 +186,19 @@ input, textarea {
    max-width: 382px;
 }
 
+#parhead {
+   font-family: sanchez, 'Times New Roman', Times, serif;
+   font-size: 16px;
+   color: #9a2018;
+}
 
 /* 3. ---Main Hero Image--- */
+
+#hero-room {
+   background: url(../images/hero.jpg) no-repeat;
+   height: 200px;
+   background-size: cover;
+}
 
 #hero {
    background: url(../images/hero-main.jpg) no-repeat;
