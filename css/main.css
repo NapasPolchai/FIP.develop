@@ -73,6 +73,10 @@ body {
    margin-bottom: 32px;
 }
 
+#menu_slide > h3 {
+   padding-bottom: 24px;
+}
+
 #menu-card {
    padding: 16px;
    box-shadow: 0px 10px 20px #00000029;
