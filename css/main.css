@@ -19,6 +19,10 @@ Couples Resort Responsive Build
 
  /* 1. ---General Styles--- */
 
+ .hidden {
+   display: none;
+ }
+
  #feature li {
    margin-bottom: 16px;
  }
@@ -125,6 +129,11 @@ body {
 }
 
 #gourmet {
+   color: #9A2018;
+   margin-bottom: 24px;
+}
+
+.gourmet {
    color: #9A2018;
    margin-bottom: 24px;
 }
@@ -305,6 +314,13 @@ input, textarea {
 }
 
 #white-section {
+   background-color: #ffffff;
+   background-size: cover;
+   padding-top: 24px;
+   padding-bottom: 24px;
+}
+
+.white-section {
    background-color: #ffffff;
    background-size: cover;
    padding-top: 24px;
