@@ -1,5 +1,5 @@
 # FIP.develop
-# Couples Resort Website
+# Couples Resort Rooms Website
 
 Welcome to the README file for the Couples Resort website. This document provides an overview of the project structure, features, installation instructions, and contact information.
 
