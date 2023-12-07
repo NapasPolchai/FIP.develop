@@ -66,6 +66,7 @@ body {
    background-size: cover;
    padding-top: 16px;
    padding-bottom: 24px;
+   margin-bottom: 32px;
 }
 
 #menu-card {
@@ -100,6 +101,32 @@ body {
 #menu-card > h4 {
    font-size: 16px;
    color: #9A2018;
+}
+
+#menu-pagination {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#menu-pagination > div {
+   width: 8px;
+   height: 8px;
+   border-radius: 100%;
+   background-color: white;
+   margin-left: 4px;
+   margin-right: 4px;
+}
+
+#menu-pagination > div.--active {
+   width: 12px;
+   height: 12px;
+   background-color: #ffffff;
+}
+
+#gourmet {
+   color: #9A2018;
+   margin-bottom: 24px;
 }
 
 /* #room-card > img {
@@ -234,6 +261,54 @@ input, textarea {
    background: url(../images/hero.jpg) no-repeat;
    height: 200px;
    background-size: cover;
+}
+
+#hero-dining {
+   background: url(../images/50.jpg) no-repeat;
+   height: 320px;
+   background-size: cover;
+   margin-bottom: 24px;
+}
+
+#last-p {
+   margin-bottom: 48px;
+}
+
+#f-p {
+   margin-bottom: 24px;
+}
+
+#wine-img {
+   background: url(../images/close-up-wine-pouring-into-glass.jpg) no-repeat;
+   height: 320px;
+   background-size: cover;
+   margin-bottom: 24px;
+}
+
+#g-para {
+   margin-bottom: 24px;
+}
+
+#g-para-last {
+   margin-bottom: 0;
+}
+
+#gourmet-section {
+   margin-bottom: 24px;
+}
+
+#grey-section {
+   background-color: #ededed;
+   background-size: cover;
+   padding-top: 24px;
+   padding-bottom: 24px;
+}
+
+#white-section {
+   background-color: #ffffff;
+   background-size: cover;
+   padding-top: 24px;
+   padding-bottom: 24px;
 }
 
 #hero {
@@ -597,7 +672,7 @@ input, textarea {
 .menu-gallery-column.--left .menu-gallery-item:nth-child(1) {
    padding-top: 63.64%;
    background-color: #eee;
-   background-image: url(../images/chateaus.jpg);
+   background-image: url(../images/7.jpg);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -605,7 +680,7 @@ input, textarea {
 
 .menu-gallery-column.--left .menu-gallery-item:nth-child(2) {
    padding-top: 197.73%;
-   background-image: url(../images/chateaus.jpg);
+   background-image: url(../images/11.jpg);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -613,7 +688,7 @@ input, textarea {
 
 .menu-gallery-column.--left .menu-gallery-item:nth-child(3) {
    padding-top: 100%;
-   background-image: url(../images/chateaus.jpg);
+   background-image: url(../images/roberta-sorge-IywM7AQTZcM-unsplash.jpg);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -621,7 +696,7 @@ input, textarea {
 
 .menu-gallery-column.--right .menu-gallery-item:nth-child(1) {
    padding-top: 100%;
-   background-image: url(../images/chateaus.jpg);
+   background-image: url(../images/jeff-siepman-hK9hIPgF3QU-unsplash.jpg);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -629,7 +704,7 @@ input, textarea {
 
 .menu-gallery-column.--right .menu-gallery-item:nth-child(2) {
    padding-top: 192.05%;
-   background-image: url(../images/chateaus.jpg);
+   background-image: url(../images/6.jpg);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -637,7 +712,7 @@ input, textarea {
 
 .menu-gallery-column.--right .menu-gallery-item:nth-child(3) {
    padding-top: 63.64%;
-   background-image: url(../images/chateaus.jpg);
+   background-image: url(../images/1.jpg);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
