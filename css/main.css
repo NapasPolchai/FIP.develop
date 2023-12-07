@@ -19,6 +19,10 @@ Couples Resort Responsive Build
 
  /* 1. ---General Styles--- */
 
+ #feature li {
+   margin-bottom: 16px;
+ }
+
  #mobile-outline {
    outline: 20px solid #333;
    max-width: 412px;
@@ -55,6 +59,33 @@ body {
    padding-bottom: 24px;
 }
 
+#menu_slide {
+   font-size: 32px;
+   color: white;
+   background-color: #871C15;
+   background-size: cover;
+   padding-top: 16px;
+   padding-bottom: 24px;
+}
+
+#menu-card {
+   padding: 16px;
+   box-shadow: 0px 10px 20px #00000029;
+   background-color: white;
+   margin-bottom: 24px;
+}
+
+#menu-card > div {
+   width: 100%;
+   height: auto;
+   padding-top: 56.25%;
+   background-image: url('../images/dailyfeatures.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   margin-bottom: 17px;
+}
+
 #room-types > h3 {
    padding-bottom: 24px;
 }
@@ -64,6 +95,11 @@ body {
    box-shadow: 0px 10px 20px #00000029;
    background-color: white;
    margin-bottom: 24px;
+}
+
+#menu-card > h4 {
+   font-size: 16px;
+   color: #9A2018;
 }
 
 /* #room-card > img {
