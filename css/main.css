@@ -95,11 +95,6 @@ body {
    margin-bottom: 17px;
 }
 
-.--active::after {
-   content: 'Vegans & Vegetarians ask to talk to the Chef, when you Check into the Resort, for Delicious Options';
-   color: #333;
-}
-
 #room-types > h3 {
    padding-bottom: 24px;
 }
