@@ -274,6 +274,7 @@ input, textarea {
    background: url(../images/hero.jpg) no-repeat;
    height: 200px;
    background-size: cover;
+   max-width: 382px;
 }
 
 #hero-dining {
@@ -281,6 +282,7 @@ input, textarea {
    height: 320px;
    background-size: cover;
    margin-bottom: 24px;
+   max-width: 382px;
 }
 
 #last-p {
@@ -296,6 +298,7 @@ input, textarea {
    height: 320px;
    background-size: cover;
    margin-bottom: 24px;
+   max-width: 367px;
 }
 
 #g-para {
@@ -568,6 +571,7 @@ input, textarea {
 #contact-hero-con {
    background: url(../images/contact-hero.jpg);
    height: 195px;
+   max-width: 382px;
 }
 
 #contact-hero-heading-box {
