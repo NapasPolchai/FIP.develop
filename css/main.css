@@ -632,7 +632,7 @@ input, textarea {
 
 #contact-hero-form input[type="submit"]:hover {
    background-color: #626262;
-   border-radius: 5;
+   border-radius: 5px;
 }
 
 
