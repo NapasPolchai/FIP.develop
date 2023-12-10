@@ -126,7 +126,7 @@ body {
    margin-right: 4px;
 }
 
-#menu-pagination > div.--active {
+#menu-pagination > .active {
    width: 12px;
    height: 12px;
    background-color: #ffffff;
@@ -179,7 +179,7 @@ body {
    margin-right: 4px;
 }
 
-#room-types-pagination > div.--active {
+#room-types-pagination > .active {
    width: 12px;
    height: 12px;
    background-color: #9A2018;
@@ -689,11 +689,11 @@ input, textarea {
    margin-bottom: 32px;
 }
 
-.menu-gallery-column.--left {
+.menu-gallery-column.left {
    padding-top: 20px;
 }
 
-.menu-gallery-column.--left .menu-gallery-item:nth-child(1) {
+.menu-gallery-column.left .menu-gallery-item:nth-child(1) {
    padding-top: 63.64%;
    background-color: #eee;
    background-image: url(../images/7.jpg);
@@ -702,7 +702,7 @@ input, textarea {
    background-repeat: no-repeat;
 }
 
-.menu-gallery-column.--left .menu-gallery-item:nth-child(2) {
+.menu-gallery-column.left .menu-gallery-item:nth-child(2) {
    padding-top: 197.73%;
    background-image: url(../images/11.jpg);
    background-size: cover;
@@ -710,7 +710,7 @@ input, textarea {
    background-repeat: no-repeat;
 }
 
-.menu-gallery-column.--left .menu-gallery-item:nth-child(3) {
+.menu-gallery-column.left .menu-gallery-item:nth-child(3) {
    padding-top: 100%;
    background-image: url(../images/roberta-sorge-IywM7AQTZcM-unsplash.jpg);
    background-size: cover;
@@ -718,7 +718,7 @@ input, textarea {
    background-repeat: no-repeat;
 }
 
-.menu-gallery-column.--right .menu-gallery-item:nth-child(1) {
+.menu-gallery-column.right .menu-gallery-item:nth-child(1) {
    padding-top: 100%;
    background-image: url(../images/jeff-siepman-hK9hIPgF3QU-unsplash.jpg);
    background-size: cover;
@@ -726,7 +726,7 @@ input, textarea {
    background-repeat: no-repeat;
 }
 
-.menu-gallery-column.--right .menu-gallery-item:nth-child(2) {
+.menu-gallery-column.right .menu-gallery-item:nth-child(2) {
    padding-top: 192.05%;
    background-image: url(../images/6.jpg);
    background-size: cover;
@@ -734,7 +734,7 @@ input, textarea {
    background-repeat: no-repeat;
 }
 
-.menu-gallery-column.--right .menu-gallery-item:nth-child(3) {
+.menu-gallery-column.right .menu-gallery-item:nth-child(3) {
    padding-top: 63.64%;
    background-image: url(../images/1.jpg);
    background-size: cover;
