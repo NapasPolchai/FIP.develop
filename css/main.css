@@ -765,7 +765,6 @@ input[type="checkbox"] + label.checkbox-label::before {
    border-radius: 2px;
    border: 1px solid #9A2018;
    background-color: white;
-   margin-left: 16px;
    }
 
 input[type="checkbox"]:checked + label.checkbox-label::after {
@@ -782,7 +781,6 @@ input[type="checkbox"]:checked + label.checkbox-label::after {
    left: 0;
    height: 16px;
    width: 16px;
-   margin-left: 16px;
 }
 
 #consent {
